@@ -11,9 +11,8 @@
    </target>   
    <target name="compile">    
     <mkdir dir="build"/>  
-    <javac srcdir="/var/lib/jenkins/workspace/test/JavaProject/src/com/mayur
-" destdir="/var/lib/jenkins/workspace/test/JavaProject/src/com/mayur/dest
-"  /> 
+    <javac srcdir="/var/lib/jenkins/workspace/test/JavaProject/src/com/mayur"
+           destdir="/var/lib/jenkins/workspace/test/JavaProject/src/com/mayur/dest"/> 
     </target>
       
    <target name="build-jar">  
