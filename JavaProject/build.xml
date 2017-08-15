@@ -11,7 +11,7 @@
    </target>
       
    <target name="compile">    
-    <mkdir dir="/var/lib/jenkins/workspace/test/JavaProject/dest"/>  
+    <mkdir dir="var/lib/jenkins/workspace/test/JavaProject/dest"/>  
     <javac srcdir="/var/lib/jenkins/workspace/test/JavaProject/src/com/mayur" destdir="/var/lib/jenkins/workspace/test/JavaProject/dest"/> 
     </target>
       
