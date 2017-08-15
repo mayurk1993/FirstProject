@@ -5,20 +5,5 @@
    <target name="info">
       <echo>Hello World - Welcome to Apache Ant!</echo>
    </target>
-      
-   <target name="clean">  
-      <delete dir="build"/>
-   </target>   
-   <target name="compile">    
-    <mkdir dir="build"/>  
-    <javac srcdir="/var/lib/jenkins/workspace/test/JavaProject/src/com/mayur"
-           destdir="/var/lib/jenkins/workspace/test/JavaProject/src/com/mayur/dest"/> 
-    </target>
-      
-   <target name="build-jar">  
-    <jar destfile="jars/Hello.jar"      basedir="/var/lib/jenkins/workspace/test/JavaProject/src/com/mayur/dest">
-      <manifest>         <attribute name="Main-Class" value="src/Hello"/>      </manifest>
-   </jar>
-      </target>
    
 </project>
